@@ -1,0 +1,1054 @@
+{
+  "Centros_Vacunacion": {
+    "GET": [
+      {
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "nombre_centro": "Centro de Salud Los Prados",
+        "nombre_corto": "Los Prados",
+        "direccion": "Calle 27 #15, Santo Domingo",
+        "latitud": 18.4861,
+        "longitud": -69.9312,
+        "telefono": "809-555-0123",
+        "director": "Dra. María Pérez",
+        "sitio_web": "www.losprados.gov.do",
+        "fecha_creacion": "2025-06-01T10:00:00Z",
+        "fecha_actualizacion": "2025-06-09T15:30:00Z"
+      },
+      {
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "nombre_centro": "Centro de Salud San Juan",
+        "nombre_corto": "San Juan",
+        "direccion": "Avenida 4 #22, San Juan",
+        "latitud": 18.8113,
+        "longitud": -71.7356,
+        "telefono": "809-555-0456",
+        "director": "Dr. Juan Gómez",
+        "sitio_web": "www.sanjuan.gov.do",
+        "fecha_creacion": "2025-06-02T09:00:00Z",
+        "fecha_actualizacion": "2025-06-10T12:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "nombre_centro": "Centro de Salud Nueva Esperanza",
+        "nombre_corto": "Nueva Esperanza",
+        "direccion": "Calle 10 #5, Santiago",
+        "latitud": 19.4562,
+        "longitud": -70.6899,
+        "telefono": "809-555-0789",
+        "director": "Dra. Ana López",
+        "sitio_web": "www.nuevaesperanza.gov.do"
+      },
+      {
+        "nombre_centro": "Centro de Salud El Valle",
+        "nombre_corto": "El Valle",
+        "direccion": "Calle 15 #8, La Vega",
+        "latitud": 19.2210,
+        "longitud": -70.5236,
+        "telefono": "809-555-1011",
+        "director": "Dr. Carlos Ruiz",
+        "sitio_web": "www.elvalle.gov.do"
+      }
+    ],
+    "PUT": [
+      {
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "nombre_centro": "Centro de Salud Los Prados Actualizado",
+        "direccion": "Calle 27 #15, Santo Domingo Este",
+        "telefono": "809-555-0124"
+      },
+      {
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "nombre_centro": "Centro de Salud San Juan Modernizado",
+        "direccion": "Avenida 4 #22, San Juan Norte",
+        "telefono": "809-555-0457"
+      }
+    ],
+    "DELETE": []
+  },
+  "Vacunas": {
+    "GET": [
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "nombre_vacuna": "Vacuna contra la Influenza",
+        "fabricante": "Pfizer",
+        "tipo_vacuna": "Inactivada",
+        "descripcion": "Protección anual contra la influenza estacional",
+        "dosis_totales_requeridas": 1,
+        "fecha_creacion": "2025-06-01T12:00:00Z",
+        "fecha_actualizacion": "2025-06-09T14:00:00Z"
+      },
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "nombre_vacuna": "Vacuna contra el Sarampión",
+        "fabricante": "Merck",
+        "tipo_vacuna": "Viva atenuada",
+        "descripcion": "Protección contra el sarampión y paperas",
+        "dosis_totales_requeridas": 2,
+        "fecha_creacion": "2025-06-02T11:00:00Z",
+        "fecha_actualizacion": "2025-06-10T11:30:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "nombre_vacuna": "Vacuna contra la Polio",
+        "fabricante": "Sanofi",
+        "tipo_vacuna": "Inactivada",
+        "descripcion": "Protección contra la poliomielitis",
+        "dosis_totales_requeridas": 3
+      },
+      {
+        "nombre_vacuna": "Vacuna contra el Tétanos",
+        "fabricante": "GlaxoSmithKline",
+        "tipo_vacuna": "Toxoide",
+        "descripcion": "Protección contra el tétanos",
+        "dosis_totales_requeridas": 2
+      }
+    ],
+    "PUT": [
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "nombre_vacuna": "Vacuna contra la Influenza 2025",
+        "dosis_totales_requeridas": 2
+      },
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "nombre_vacuna": "Vacuna contra el Sarampión Mejorada",
+        "dosis_totales_requeridas": 3
+      }
+    ],
+    "DELETE": []
+  },
+  "Niños": {
+    "GET": [
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "nombre_completo": "Juan Pérez Gómez",
+        "identificacion": "001-1234567-8",
+        "nacionalidad": "Dominicano",
+        "pais_nacimiento": "República Dominicana",
+        "fecha_nacimiento": "2020-05-15",
+        "genero": "M",
+        "direccion_residencia": "Calle 5 #10, Santo Domingo",
+        "latitud": 18.4861,
+        "longitud": -69.9312,
+        "id_centro_salud": "550e8400-e29b-41d4-a716-446655440000",
+        "contacto_principal": "Madre",
+        "id_salud_nacional": "HN-12345",
+        "fecha_creacion": "2025-06-03T08:00:00Z",
+        "fecha_actualizacion": "2025-06-09T16:00:00Z"
+      },
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "nombre_completo": "María Rodríguez",
+        "identificacion": "001-7654321-9",
+        "nacionalidad": "Dominicano",
+        "pais_nacimiento": "República Dominicana",
+        "fecha_nacimiento": "2019-08-22",
+        "genero": "F",
+        "direccion_residencia": "Avenida 3 #7, San Juan",
+        "latitud": 18.8113,
+        "longitud": -71.7356,
+        "id_centro_salud": "550e8400-e29b-41d4-a716-446655440001",
+        "contacto_principal": "Padre",
+        "id_salud_nacional": "HN-67890",
+        "fecha_creacion": "2025-06-04T09:00:00Z",
+        "fecha_actualizacion": "2025-06-10T13:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "nombre_completo": "Pedro Sánchez",
+        "identificacion": "001-2345678-0",
+        "nacionalidad": "Dominicano",
+        "pais_nacimiento": "República Dominicana",
+        "fecha_nacimiento": "2021-03-10",
+        "genero": "M",
+        "direccion_residencia": "Calle 12 #3, Santiago",
+        "latitud": 19.4562,
+        "longitud": -70.6899,
+        "id_centro_salud": "550e8400-e29b-41d4-a716-446655440000",
+        "contacto_principal": "Tutor",
+        "id_salud_nacional": "HN-11111"
+      },
+      {
+        "nombre_completo": "Lucía Martínez",
+        "identificacion": "001-8765432-1",
+        "nacionalidad": "Extranjero",
+        "pais_nacimiento": "Haití",
+        "fecha_nacimiento": "2020-11-05",
+        "genero": "F",
+        "direccion_residencia": "Calle 8 #4, La Vega",
+        "latitud": 19.2210,
+        "longitud": -70.5236,
+        "id_centro_salud": "550e8400-e29b-41d4-a716-446655440001",
+        "contacto_principal": "Madre",
+        "id_salud_nacional": "HN-22222"
+      }
+    ],
+    "PUT": [
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "nombre_completo": "Juan Pérez Gómez Actualizado",
+        "direccion_residencia": "Calle 5 #11, Santo Domingo",
+        "id_centro_salud": "550e8400-e29b-41d4-a716-446655440001"
+      },
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "nombre_completo": "María Rodríguez Actualizada",
+        "direccion_residencia": "Avenida 3 #8, San Juan",
+        "id_centro_salud": "550e8400-e29b-41d4-a716-446655440000"
+      }
+    ],
+    "DELETE": []
+  },
+  "Tutores": {
+    "GET": [
+      {
+        "id_tutor": "550e8400-e29b-41d4-a716-446655440006",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "nombre": "Sofía Pérez",
+        "identificacion": "001-9876543-2",
+        "relacion": "Madre",
+        "telefono": "809-555-1111",
+        "email": "sofia.perez@email.com",
+        "direccion": "Calle 5 #10, Santo Domingo",
+        "nacionalidad": "Dominicano",
+        "fecha_creacion": "2025-06-03T08:30:00Z",
+        "fecha_actualizacion": "2025-06-09T16:30:00Z"
+      },
+      {
+        "id_tutor": "550e8400-e29b-41d4-a716-446655440007",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "nombre": "Carlos Rodríguez",
+        "identificacion": "001-6543210-9",
+        "relacion": "Padre",
+        "telefono": "809-555-2222",
+        "email": "carlos.rodriguez@email.com",
+        "direccion": "Avenida 3 #7, San Juan",
+        "nacionalidad": "Dominicano",
+        "fecha_creacion": "2025-06-04T09:30:00Z",
+        "fecha_actualizacion": "2025-06-10T13:30:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "nombre": "Ana Sánchez",
+        "identificacion": "001-3456789-0",
+        "relacion": "Tutor Legal",
+        "telefono": "809-555-3333",
+        "email": "ana.sanchez@email.com",
+        "direccion": "Calle 12 #3, Santiago",
+        "nacionalidad": "Dominicano"
+      },
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "nombre": "Luis Martínez",
+        "identificacion": "001-7890123-4",
+        "relacion": "Padre",
+        "telefono": "809-555-4444",
+        "email": "luis.martinez@email.com",
+        "direccion": "Calle 8 #4, La Vega",
+        "nacionalidad": "Extranjero"
+      }
+    ],
+    "PUT": [
+      {
+        "id_tutor": "550e8400-e29b-41d4-a716-446655440006",
+        "telefono": "809-555-1112",
+        "email": "sofia.perez.nueva@email.com"
+      },
+      {
+        "id_tutor": "550e8400-e29b-41d4-a716-446655440007",
+        "telefono": "809-555-2223",
+        "email": "carlos.rodriguez.nuevo@email.com"
+      }
+    ],
+    "DELETE": []
+  },
+  "Lotes_Vacunas": {
+    "GET": [
+      {
+        "id_lote": "550e8400-e29b-41d4-a716-446655440008",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "numero_lote": "LOT001",
+        "fecha_vencimiento": "2026-06-01",
+        "cantidad_total": 100,
+        "cantidad_disponible": 80,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "temperatura_registrada": 4.5,
+        "fecha_ultima_verificacion": "2025-06-09T14:00:00Z",
+        "fecha_creacion": "2025-06-01T13:00:00Z",
+        "fecha_actualizacion": "2025-06-09T15:00:00Z"
+      },
+      {
+        "id_lote": "550e8400-e29b-41d4-a716-446655440009",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "numero_lote": "LOT002",
+        "fecha_vencimiento": "2026-06-02",
+        "cantidad_total": 150,
+        "cantidad_disponible": 120,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "temperatura_registrada": 3.8,
+        "fecha_ultima_verificacion": "2025-06-10T11:00:00Z",
+        "fecha_creacion": "2025-06-02T12:00:00Z",
+        "fecha_actualizacion": "2025-06-10T12:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "numero_lote": "LOT003",
+        "fecha_vencimiento": "2026-06-10",
+        "cantidad_total": 200,
+        "cantidad_disponible": 200,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "temperatura_registrada": 4.0
+      },
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "numero_lote": "LOT004",
+        "fecha_vencimiento": "2026-06-11",
+        "cantidad_total": 180,
+        "cantidad_disponible": 180,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "temperatura_registrada": 3.5
+      }
+    ],
+    "PUT": [
+      {
+        "id_lote": "550e8400-e29b-41d4-a716-446655440008",
+        "cantidad_disponible": 70,
+        "temperatura_registrada": 4.2
+      },
+      {
+        "cantidad_disponible": 110,
+        "temperatura_registrada": 3.9
+      }
+    ],
+    "DELETE": []
+  },
+  "Dosis_Aplicadas": {
+    "GET": [
+      {
+        "id_dosis": "550e8400-e29b-41d4-a716-446655440012",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_lote": "550e8400-e29b-41d4-a716-446655440008",
+        "id_personal": "550e8400-e29b-41d4-a716-446655440010",
+        "cedula": "001-4567890-1",
+        "telefono": "809-555-5555",
+        "email": "jose.diaz@email.com",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "especialidad": "Pediatría",
+        "fecha_creacion": "2025-06-03T10:00:00Z",
+        "fecha_actualizacion": "2025-06-09T17:00:00Z"
+      },
+      {
+        "id_personal": "550e8400-e29b-41d4-a716-446655440011",
+        "nombre": "Dra. Laura Fernández",
+        "cedula": "001-7890123-4",
+        "telefono": "809-555-6666",
+        "email": "laura.fernandez@email.com",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "especialidad": "Enfermería",
+        "fecha_creacion": "2025-06-04T11:00:00Z",
+        "fecha_actualizacion": "2025-06-10T14:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "nombre": "Dr. Miguel Torres",
+        "cedula": "001-2345678-9",
+        "telefono": "809-555-7777",
+        "email": "miguel.torres@email.com",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "especialidad": "Medicina General"
+      },
+      {
+        "nombre": "Dra. Carmen Silva",
+        "cedula": "001-8765432-1",
+        "telefono": "809-555-8888",
+        "email": "carmen.silva@email.com",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "especialidad": "Enfermería"
+      }
+    ],
+    "PUT": [
+      {
+        "id_personal": "550e8400-e29b-41d4-a716-446655440010",
+        "telefono": "809-555-5556",
+        "email": "jose.diaz.nuevo@email.com"
+      },
+      {
+        "id_personal": "550e8400-e29b-41d4-a716-446655440011",
+        "telefono": "809-555-6667",
+        "email": "laura.fernandez.nueva@email.com"
+      }
+    ],
+    "DELETE": []
+  },
+  "Usuarios": {
+    "GET": [
+      {
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440012",
+        "nombre": "Juan Administrador",
+        "rol": "Administrador",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "username": "admin",
+        "password_hash": "admin123",
+        "email": "admin@vacunacion.gob.do",
+        "telefono": "809-555-0001",
+        "estado": "Activo",
+        "fecha_creacion": "2025-06-03T12:00:00Z",
+        "fecha_actualizacion": "2025-06-09T18:00:00Z"
+      },
+      {
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440013",
+        "nombre": "María Madre",
+        "rol": "Padre",
+        "id_centro": null,
+        "username": "padre",
+        "password_hash": "padre123",
+        "email": "maria.madre@gmail.com",
+        "telefono": "809-555-0002",
+        "estado": "Activo",
+        "fecha_creacion": "2025-06-04T13:00:00Z",
+        "fecha_actualizacion": "2025-06-10T15:00:00Z"
+      },
+      {
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440014",
+        "nombre": "Dr. Pedro Director",
+        "rol": "Director",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "username": "director",
+        "password_hash": "director123",
+        "email": "pedro.director@hospital.gob.do",
+        "telefono": "809-555-0003",
+        "estado": "Activo",
+        "fecha_creacion": "2025-06-05T14:00:00Z",
+        "fecha_actualizacion": "2025-06-11T16:00:00Z"
+      },
+      {
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440015",
+        "nombre": "Dra. Ana Doctora",
+        "rol": "Doctor",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "username": "doctor",
+        "password_hash": "doctor123",
+        "email": "ana.doctor@hospital.gob.do",
+        "telefono": "809-555-0004",
+        "estado": "Activo",
+        "fecha_creacion": "2025-06-06T15:00:00Z",
+        "fecha_actualizacion": "2025-06-12T17:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "nombre": "Nuevo Usuario",
+        "rol": "Padre",
+        "id_centro": null,
+        "username": "nuevousuario",
+        "password_hash": "password123",
+        "email": "nuevo@email.com",
+        "telefono": "809-555-0000",
+        "estado": "Activo"
+      }
+    ],
+    "PUT": [
+      {
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440012",
+        "email": "juan.admin.nuevo@email.com",
+        "telefono": "809-555-9998"
+      },
+      {
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440013",
+        "email": "maria.enf.nueva@email.com",
+        "telefono": "809-555-0001"
+      }
+    ],
+    "DELETE": []
+  },
+  "Campañas_Vacunacion": {
+    "GET": [
+      {
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "nombre_campaña": "Campaña Influenza 2025",
+        "fecha_inicio": "2025-06-15",
+        "fecha_fin": "2025-07-15",
+        "objetivo": "Vacunar al 90% de la población infantil",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "estado": "Planificada",
+        "fecha_creacion": "2025-06-05T09:00:00Z",
+        "fecha_actualizacion": "2025-06-09T19:00:00Z"
+      },
+      {
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "nombre_campaña": "Campaña Sarampión 2025",
+        "fecha_inicio": "2025-06-20",
+        "fecha_fin": "2025-07-20",
+        "objetivo": "Reducir casos de sarampión",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "estado": "Planificada",
+        "fecha_creacion": "2025-06-06T10:00:00Z",
+        "fecha_actualizacion": "2025-06-10T16:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "nombre_campaña": "Campaña Polio 2025",
+        "fecha_inicio": "2025-07-01",
+        "fecha_fin": "2025-08-01",
+        "objetivo": "Erradicar polio en zonas rurales",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "estado": "Planificada"
+      },
+      {
+        "nombre_campaña": "Campaña Tétanos 2025",
+        "fecha_inicio": "2025-07-10",
+        "fecha_fin": "2025-08-10",
+        "objetivo": "Proteger a mujeres embarazadas",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "estado": "Planificada"
+      }
+    ],
+    "PUT": [
+      {
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "estado": "En Curso",
+        "fecha_fin": "2025-07-20"
+      },
+      {
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "estado": "En Curso",
+        "fecha_fin": "2025-07-25"
+      }
+    ],
+    "DELETE": []
+  },
+  "Campaña_Centro": {
+    "GET": [
+      {
+        "id_campaña_centro": "550e8400-e29b-41d4-a716-446655440016",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "fecha_asignacion": "2025-06-07",
+        "fecha_creacion": "2025-06-07T11:00:00Z",
+        "fecha_actualizacion": "2025-06-09T20:00:00Z"
+      },
+      {
+        "id_campaña_centro": "550e8400-e29b-41d4-a716-446655440017",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "fecha_asignacion": "2025-06-08",
+        "fecha_creacion": "2025-06-08T12:00:00Z",
+        "fecha_actualizacion": "2025-06-10T17:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "fecha_asignacion": "2025-06-15"
+      },
+      {
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "fecha_asignacion": "2025-06-16"
+      }
+    ],
+    "PUT": [
+      {
+        "id_campaña_centro": "550e8400-e29b-41d4-a716-446655440016",
+        "fecha_asignacion": "2025-06-10"
+      },
+      {
+        "id_campaña_centro": "550e8400-e29b-41d4-a716-446655440017",
+        "fecha_asignacion": "2025-06-11"
+      }
+    ],
+    "DELETE": []
+  },
+  "Citas": {
+    "GET": [
+      {
+        "id_cita": "550e8400-e29b-41d4-a716-446655440018",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "fecha_cita": "2025-06-15T09:00:00Z",
+        "estado": "Pendiente",
+        "vacuna_programada": "Vacuna contra la Influenza",
+        "observaciones": "Primera dosis",
+        "fecha_creacion": "2025-06-05T13:00:00Z",
+        "fecha_actualizacion": "2025-06-09T21:00:00Z"
+      },
+      {
+        "id_cita": "550e8400-e29b-41d4-a716-446655440019",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "fecha_cita": "2025-06-16T10:00:00Z",
+        "estado": "Pendiente",
+        "vacuna_programada": "Vacuna contra el Sarampión",
+        "observaciones": "Segunda dosis",
+        "fecha_creacion": "2025-06-06T14:00:00Z",
+        "fecha_actualizacion": "2025-06-10T18:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "fecha_cita": "2025-06-20T09:00:00Z",
+        "estado": "Pendiente",
+        "vacuna_programada": "Vacuna contra la Influenza"
+      },
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "fecha_cita": "2025-06-21T10:00:00Z",
+        "estado": "Pendiente",
+        "vacuna_programada": "Vacuna contra el Sarampión"
+      }
+    ],
+    "PUT": [
+      {
+        "id_cita": "550e8400-e29b-41d4-a716-446655440018",
+        "estado": "Confirmada",
+        "observaciones": "Confirmada por teléfono"
+      },
+      {
+        "id_cita": "550e8400-e29b-41d4-a716-446655440019",
+        "estado": "Confirmada",
+        "observaciones": "Confirmada por email"
+      }
+    ],
+    "DELETE": []
+  },
+  "Historial_Vacunacion": {
+    "GET": [
+      {
+        "id_historial": "550e8400-e29b-41d4-a716-446655440020",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "id_lote": "550e8400-e29b-41d4-a716-446655440008",
+        "id_cita": "550e8400-e29b-41d4-a716-446655440018",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "fecha_aplicacion": "2025-06-15",
+        "tipo_dosis": "Primera",
+        "edad_al_vacunarse": 5,
+        "id_personal_responsable": "550e8400-e29b-41d4-a716-446655440010",
+        "firma_digital": "firma123",
+        "observaciones": "Sin complicaciones",
+        "fecha_creacion": "2025-06-15T15:00:00Z",
+        "fecha_actualizacion": "2025-06-15T15:30:00Z"
+      },
+      {
+        "id_historial": "550e8400-e29b-41d4-a716-446655440021",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "id_lote": "550e8400-e29b-41d4-a716-446655440009",
+        "id_cita": "550e8400-e29b-41d4-a716-446655440019",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "fecha_aplicacion": "2025-06-16",
+        "tipo_dosis": "Primera",
+        "edad_al_vacunarse": 5,
+        "id_personal_responsable": "550e8400-e29b-41d4-a716-446655440011",
+        "firma_digital": "firma456",
+        "observaciones": "Ligera fiebre",
+        "fecha_creacion": "2025-06-16T16:00:00Z",
+        "fecha_actualizacion": "2025-06-16T16:30:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "id_lote": "550e8400-e29b-41d4-a716-446655440008",
+        "id_cita": "550e8400-e29b-41d4-a716-446655440018",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440014",
+        "fecha_aplicacion": "2025-06-20",
+        "tipo_dosis": "Segunda",
+        "edad_al_vacunarse": 5,
+        "id_personal_responsable": "550e8400-e29b-41d4-a716-446655440010",
+        "firma_digital": "firma789",
+        "observaciones": "Sin efectos"
+      },
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "id_lote": "550e8400-e29b-41d4-a716-446655440009",
+        "id_cita": "550e8400-e29b-41d4-a716-446655440019",
+        "id_campaña": "550e8400-e29b-41d4-a716-446655440015",
+        "fecha_aplicacion": "2025-06-21",
+        "tipo_dosis": "Segunda",
+        "edad_al_vacunarse": 5,
+        "id_personal_responsable": "550e8400-e29b-41d4-a716-446655440011",
+        "firma_digital": "firma101",
+        "observaciones": "Leve enrojecimiento"
+      }
+    ],
+    "PUT": [
+      {
+        "id_historial": "550e8400-e29b-41d4-a716-446655440020",
+        "observaciones": "Revisión adicional requerida"
+      },
+      {
+        "id_historial": "550e8400-e29b-41d4-a716-446655440021",
+        "observaciones": "Monitoreo por fiebre"
+      }
+    ],
+    "DELETE": []
+  },
+  "Inventario_Suministros": {
+    "GET": [
+      {
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440022",
+        "nombre_suministro": "Jeringas 5ml",
+        "tipo_suministro": "Material médico",
+        "cantidad_total": 500,
+        "cantidad_disponible": 450,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "fecha_entrada": "2025-06-01",
+        "fecha_vencimiento": "2026-06-01",
+        "proveedor": "MedSupply",
+        "condiciones_almacenamiento": "Temperatura ambiente",
+        "fecha_creacion": "2025-06-01T14:00:00Z",
+        "fecha_actualizacion": "2025-06-09T22:00:00Z"
+      },
+      {
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440023",
+        "nombre_suministro": "Algodón estéril",
+        "tipo_suministro": "Material médico",
+        "cantidad_total": 300,
+        "cantidad_disponible": 280,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "fecha_entrada": "2025-06-02",
+        "fecha_vencimiento": "2026-06-02",
+        "proveedor": "HealthCo",
+        "condiciones_almacenamiento": "Seco y fresco",
+        "fecha_creacion": "2025-06-02T15:00:00Z",
+        "fecha_actualizacion": "2025-06-10T19:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "nombre_suministro": "Guantes estériles",
+        "tipo_suministro": "Material médico",
+        "cantidad_total": 600,
+        "cantidad_disponible": 600,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440000",
+        "fecha_entrada": "2025-06-15",
+        "fecha_vencimiento": "2026-06-15",
+        "proveedor": "MedEquip",
+        "condiciones_almacenamiento": "Sin humedad"
+      },
+      {
+        "nombre_suministro": "Gasas estériles",
+        "tipo_suministro": "Material médico",
+        "cantidad_total": 400,
+        "cantidad_disponible": 400,
+        "id_centro": "550e8400-e29b-41d4-a716-446655440001",
+        "fecha_entrada": "2025-06-16",
+        "fecha_vencimiento": "2026-06-16",
+        "proveedor": "HealthCo",
+        "condiciones_almacenamiento": "Temperatura controlada"
+      }
+    ],
+    "PUT": [
+      {
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440022",
+        "cantidad_disponible": 400
+      },
+      {
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440023",
+        "cantidad_disponible": 250
+      }
+    ],
+    "DELETE": []
+  },
+  "Suministro_Vacunacion": {
+    "GET": [
+      {
+        "id_suministro_vacunacion": "550e8400-e29b-41d4-a716-446655440024",
+        "id_historial": "550e8400-e29b-41d4-a716-446655440020",
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440022",
+        "cantidad_usada": 1,
+        "fecha_uso": "2025-06-15",
+        "fecha_creacion": "2025-06-15T16:00:00Z",
+        "fecha_actualizacion": "2025-06-15T16:30:00Z"
+      },
+      {
+        "id_suministro_vacunacion": "550e8400-e29b-41d4-a716-446655440025",
+        "id_historial": "550e8400-e29b-41d4-a716-446655440021",
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440023",
+        "cantidad_usada": 2,
+        "fecha_uso": "2025-06-16",
+        "fecha_creacion": "2025-06-16T17:00:00Z",
+        "fecha_actualizacion": "2025-06-16T17:30:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_historial": "550e8400-e29b-41d4-a716-446655440020",
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440022",
+        "cantidad_usada": 1,
+        "fecha_uso": "2025-06-20"
+      },
+      {
+        "id_historial": "550e8400-e29b-41d4-a716-446655440021",
+        "id_suministro": "550e8400-e29b-41d4-a716-446655440023",
+        "cantidad_usada": 2,
+        "fecha_uso": "2025-06-21"
+      }
+    ],
+    "PUT": [
+      {
+        "id_suministro_vacunacion": "550e8400-e29b-41d4-a716-446655440024",
+        "cantidad_usada": 2
+      },
+      {
+        "id_suministro_vacunacion": "550e8400-e29b-41d4-a716-446655440025",
+        "cantidad_usada": 3
+      }
+    ],
+    "DELETE": []
+  },
+  "Esquema_Vacunacion": {
+    "GET": [
+      {
+        "id_esquema": "550e8400-e29b-41d4-a716-446655440026",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "orden_dosis": 1,
+        "edad_recomendada": "6 meses",
+        "intervalo_desde_anterior": null,
+        "descripcion": "Primera dosis de influenza",
+        "fecha_creacion": "2025-06-01T15:00:00Z",
+        "fecha_actualizacion": "2025-06-09T23:00:00Z"
+      },
+      {
+        "id_esquema": "550e8400-e29b-41d4-a716-446655440027",
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "orden_dosis": 1,
+        "edad_recomendada": "9 meses",
+        "intervalo_desde_anterior": null,
+        "descripcion": "Primera dosis de sarampión",
+        "fecha_creacion": "2025-06-02T16:00:00Z",
+        "fecha_actualizacion": "2025-06-10T20:00:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440002",
+        "orden_dosis": 2,
+        "edad_recomendada": "12 meses",
+        "intervalo_desde_anterior": 6,
+        "descripcion": "Segunda dosis de influenza"
+      },
+      {
+        "id_vacuna": "550e8400-e29b-41d4-a716-446655440003",
+        "orden_dosis": 2,
+        "edad_recomendada": "15 meses",
+        "intervalo_desde_anterior": 6,
+        "descripcion": "Segunda dosis de sarampión"
+      }
+    ],
+    "PUT": [
+      {
+        "id_esquema": "550e8400-e29b-41d4-a716-446655440026",
+        "edad_recomendada": "7 meses"
+      },
+      {
+        "id_esquema": "550e8400-e29b-41d4-a716-446655440027",
+        "edad_recomendada": "10 meses"
+      }
+    ],
+    "DELETE": []
+  },
+  "Auditoria": {
+    "GET": [
+      {
+        "id_auditoria": "550e8400-e29b-41d4-a716-446655440028",
+        "tabla_afectada": "Centros_Vacunacion",
+        "id_registro": "550e8400-e29b-41d4-a716-446655440000",
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440012",
+        "accion": "INSERT",
+        "detalles": "Creación de nuevo centro",
+        "ip_origen": "192.168.1.10",
+        "fecha_hora": "2025-06-01T10:30:00Z"
+      },
+      {
+        "id_auditoria": "550e8400-e29b-41d4-a716-446655440029",
+        "tabla_afectada": "Niños",
+        "id_registro": "550e8400-e29b-41d4-a716-446655440004",
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440013",
+        "accion": "INSERT",
+        "detalles": "Registro de nuevo niño",
+        "ip_origen": "192.168.1.11",
+        "fecha_hora": "2025-06-03T08:30:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "tabla_afectada": "Vacunas",
+        "id_registro": "550e8400-e29b-41d4-a716-446655440002",
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440012",
+        "accion": "INSERT",
+        "detalles": "Creación de nueva vacuna",
+        "ip_origen": "192.168.1.10"
+      },
+      {
+        "tabla_afectada": "Citas",
+        "id_registro": "550e8400-e29b-41d4-a716-446655440018",
+        "id_usuario": "550e8400-e29b-41d4-a716-446655440013",
+        "accion": "INSERT",
+        "detalles": "Creación de nueva cita",
+        "ip_origen": "192.168.1.11"
+      }
+    ],
+    "PUT": [
+      {
+        "id_auditoria": "550e8400-e29b-41d4-a716-446655440028",
+        "detalles": "Actualización de centro"
+      },
+      {
+        "id_auditoria": "550e8400-e29b-41d4-a716-446655440029",
+        "detalles": "Actualización de niño"
+      }
+    ],
+    "DELETE": []
+  },
+  "Eventos_Adversos": {
+    "GET": [
+      {
+        "id_evento": "550e8400-e29b-41d4-a716-446655440030",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_historial": "550e8400-e29b-41d4-a716-446655440020",
+        "descripcion_evento": "Leve enrojecimiento",
+        "fecha_evento": "2025-06-15",
+        "gravedad": "Leve",
+        "id_personal_reportante": "550e8400-e29b-41d4-a716-446655440010",
+        "acciones_tomadas": "Observación",
+        "estado": "Reportado",
+        "fecha_creacion": "2025-06-15T17:00:00Z",
+        "fecha_actualizacion": "2025-06-15T17:30:00Z"
+      },
+      {
+        "id_evento": "550e8400-e29b-41d4-a716-446655440031",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_historial": "550e8400-e29b-41d4-a716-446655440021",
+        "descripcion_evento": "Fiebre moderada",
+        "fecha_evento": "2025-06-16",
+        "gravedad": "Moderado",
+        "id_personal_reportante": "550e8400-e29b-41d4-a716-446655440011",
+        "acciones_tomadas": "Medicación",
+        "estado": "Reportado",
+        "fecha_creacion": "2025-06-16T18:00:00Z",
+        "fecha_actualizacion": "2025-06-16T18:30:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_historial": "550e8400-e29b-41d4-a716-446655440020",
+        "descripcion_evento": "Dolor local",
+        "fecha_evento": "2025-06-20",
+        "gravedad": "Leve",
+        "id_personal_reportante": "550e8400-e29b-41d4-a716-446655440010",
+        "acciones_tomadas": "Compresa fría",
+        "estado": "Reportado"
+      },
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_historial": "550e8400-e29b-41d4-a716-446655440021",
+        "descripcion_evento": "Reacción alérgica",
+        "fecha_evento": "2025-06-21",
+        "gravedad": "Moderado",
+        "id_personal_reportante": "550e8400-e29b-41d4-a716-446655440011",
+        "acciones_tomadas": "Antihistamínico",
+        "estado": "Reportado"
+      }
+    ],
+    "PUT": [
+      {
+        "id_evento": "550e8400-e29b-41d4-a716-446655440030",
+        "estado": "En Investigación"
+      },
+      {
+        "id_evento": "550e8400-e29b-41d4-a716-446655440031",
+        "estado": "En Investigación"
+      }
+    ],
+    "DELETE": []
+  },
+  "Alertas": {
+    "GET": [
+      {
+        "id_alerta": "550e8400-e29b-41d4-a716-446655440032",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_evento": "550e8400-e29b-41d4-a716-446655440030",
+        "tipo_alerta": "Evento Adverso",
+        "fecha_alerta": "2025-06-15",
+        "mensaje": "Revisar evento adverso reportado",
+        "estado": "Pendiente",
+        "id_usuario_asignado": "550e8400-e29b-41d4-a716-446655440012",
+        "fecha_resolucion": null,
+        "fecha_creacion": "2025-06-15T18:00:00Z",
+        "fecha_actualizacion": "2025-06-15T18:30:00Z"
+      },
+      {
+        "id_alerta": "550e8400-e29b-41d4-a716-446655440033",
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_evento": "550e8400-e29b-41d4-a716-446655440031",
+        "tipo_alerta": "Evento Adverso",
+        "fecha_alerta": "2025-06-16",
+        "mensaje": "Revisar fiebre moderada",
+        "estado": "Pendiente",
+        "id_usuario_asignado": "550e8400-e29b-41d4-a716-446655440013",
+        "fecha_resolucion": null,
+        "fecha_creacion": "2025-06-16T19:00:00Z",
+        "fecha_actualizacion": "2025-06-16T19:30:00Z"
+      }
+    ],
+    "POST": [
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440004",
+        "id_evento": "550e8400-e29b-41d4-a716-446655440030",
+        "tipo_alerta": "Evento Adverso",
+        "fecha_alerta": "2025-06-20",
+        "mensaje": "Seguimiento requerido",
+        "estado": "Pendiente",
+        "id_usuario_asignado": "550e8400-e29b-41d4-a716-446655440012"
+      },
+      {
+        "id_niño": "550e8400-e29b-41d4-a716-446655440005",
+        "id_evento": "550e8400-e29b-41d4-a716-446655440031",
+        "tipo_alerta": "Evento Adverso",
+        "fecha_alerta": "2025-06-21",
+        "mensaje": "Revisión médica urgente",
+        "estado": "Pendiente",
+        "id_usuario_asignado": "550e8400-e29b-41d4-a716-446655440013"
+      }
+    ],
+    "PUT": [
+      {
+        "id_alerta": "550e8400-e29b-41d4-a716-446655440032",
+        "estado": "Resuelta",
+        "fecha_resolucion": "2025-06-20T10:00:00Z"
+      },
+      {
+        "id_alerta": "550e8400-e29b-41d4-a716-446655440033",
+        "estado": "Resuelta",
+        "fecha_resolucion": "2025-06-21T11:00:00Z"
+      }
+    ],
+    "DELETE": []
+  }
+}

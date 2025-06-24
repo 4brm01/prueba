@@ -47,22 +47,16 @@ const usuariosService = {
   // Crear un nuevo usuario
   async createUsuario(userData) {
     try {
-      if (!userData.password) {
-        throw new Error('La contraseña es obligatoria para crear un usuario');
-      }
-      // Construir el payload solo con campos definidos y no vacíos
-      const payload = {
+      const response = await apiService.post('/api/users', {
         nombre: userData.nombre,
         username: userData.username,
-        password: userData.password, // Solo requerido al crear
+        password: userData.password,
+        email: userData.email || null,
+        telefono: userData.telefono || null,
         rol: userData.rol || 'usuario',
+        id_centro: userData.id_centro || null,
         activo: userData.activo !== undefined ? userData.activo : true
-      };
-      if (userData.email) payload.email = userData.email;
-      if (userData.telefono) payload.telefono = userData.telefono;
-      if (userData.id_centro) payload.id_centro = userData.id_centro;
-
-      const response = await apiService.post('/api/users', payload);
+      });
       console.log('[usuariosService] Create usuario response:', response);
       
       return {
@@ -82,21 +76,19 @@ const usuariosService = {
   // Actualizar un usuario existente
   async updateUsuario(id, userData) {
     try {
-      if (!userData.password) {
-        throw new Error('La contraseña es requerida para actualizar el usuario');
-      }
-      // Limpiar payload: solo incluir campos definidos y no vacíos
       const payload = {
         nombre: userData.nombre,
         username: userData.username,
-        password: userData.password, // Siempre requerida por el backend
-        rol: userData.rol
+        password: userData.password, // Siempre requerido
+        email: userData.email || null,
+        telefono: userData.telefono || null,
+        rol: userData.rol || 'usuario',
+        id_centro: userData.id_centro || null,
+        activo: userData.activo !== undefined ? userData.activo : true
       };
-      if (userData.email) payload.email = userData.email;
-      if (userData.telefono) payload.telefono = userData.telefono;
-      if (userData.id_centro) payload.id_centro = userData.id_centro;
       const response = await apiService.put(`/api/users/${id}`, payload);
       console.log('[usuariosService] Update usuario response:', response);
+      
       return {
         ...response,
         name: response.nombre || response.name || response.username,

@@ -1,0 +1,22 @@
+# Ignorar archivos innecesarios
+node_modules/
+.env
+*.log
+logs/
+.DS_Store
+test-*.js
+mock-server.js
+
+# Build files
+build/
+dist/
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
